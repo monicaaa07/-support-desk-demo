@@ -1,0 +1,11 @@
+.shell { min-height: 100vh; }
+.header {
+  display: flex; align-items: center; gap: var(--space-8);
+  padding: var(--space-3) var(--space-6);
+  background: var(--color-surface); border-bottom: 1px solid var(--color-border);
+}
+.brand { font-weight: 700; }
+.header nav { display: flex; gap: var(--space-4); }
+.header nav a { color: var(--color-text-muted); padding: var(--space-1) 0; }
+.header nav a.active { color: var(--color-text); border-bottom: 2px solid var(--color-primary); }
+.main { max-width: 1120px; margin: 0 auto; padding: var(--space-6); }

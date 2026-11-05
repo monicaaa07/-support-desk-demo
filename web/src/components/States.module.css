@@ -1,0 +1,6 @@
+.box {
+  padding: var(--space-8); text-align: center; color: var(--color-text-muted);
+  background: var(--color-surface); border: 1px dashed var(--color-border); border-radius: var(--radius-md);
+}
+.error { color: var(--color-priority-urgent); border-style: solid; }
+.title { font-weight: 600; color: var(--color-text); margin: 0 0 var(--space-2); }

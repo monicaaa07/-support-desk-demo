@@ -1,0 +1,13 @@
+.badge {
+  display: inline-block; padding: 2px var(--space-2); border-radius: var(--radius-sm);
+  font-size: var(--font-size-sm); font-weight: 600; text-transform: capitalize;
+  border: 1px solid currentColor; background: var(--color-surface);
+}
+.status-open { color: var(--color-status-open); }
+.status-pending { color: var(--color-status-pending); }
+.status-resolved { color: var(--color-status-resolved); }
+.status-closed { color: var(--color-status-closed); }
+.priority-low { color: var(--color-priority-low); }
+.priority-medium { color: var(--color-priority-medium); }
+.priority-high { color: var(--color-priority-high); }
+.priority-urgent { color: var(--color-priority-urgent); }
